@@ -498,3 +498,162 @@ footer>.secondportion>div>ul:hover{
 
 
 /* time=3hrs */
+
+
+
+@media screen and  (max-width:480px)  {
+    body > header > nav > ul{
+        display: none;
+      }
+      body{
+          overflow-x: hidden;
+          /* background-color: #d33; */
+      }
+      header{
+          width: 200%;
+      }
+    .section-one{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    .section-one>.left{
+        margin:0px;
+    }
+    .section-one>.left>.imageone{
+        margin: 0px;
+        width: 130%;
+        height: 200px;
+    }
+    .section-one>.right{
+        margin: 0px;
+    }
+    .section-one>.right>h1{
+        font-size: 32px;
+        margin-top: 20px;
+        width: 500px;
+        margin-right: 0px;
+
+
+    }
+    .section-one>.right>p{
+        margin-right: 0px;
+        width: 500px;
+
+    }
+
+    .section-two>.figures{
+        display: flex;
+        flex-wrap: wrap;
+        gap:25px;
+    }
+    .section-two>.mainimg>img{
+        height: 200px;
+        margin-bottom: 50px;
+    }
+
+
+    body > main > div.subheading{
+        font-size: 28px;
+        margin-top: 0px;
+    }
+    
+    .section-three{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .section-three>.left{
+        margin:20px;
+    }
+    .section-three>.left>h2{
+    
+        margin:0px 0px 20px 0px;
+    
+    }
+    body > main > div.section-three > div.right > img{
+        margin:0px 20px;
+        
+        /* background-position: cover; */
+        height: 200px;
+    }
+
+
+
+    .section-four{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .section-four>.left>img{
+        margin:25px;
+        height: 200px;
+    }
+    body > main > div.section-four > div.right > h2{
+        margin: 0px;;
+    }
+    body > main > div.section-four > div.right > p{
+        margin: 20px 0px 20px 0px;
+    }
+
+    .section-five{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-five>.left{
+        margin: 25px;
+    }
+    body > main > div.section-five > div.left > h2{
+        margin: 0px;
+    }
+    body > main > div.section-five > div.left > p{
+        margin: 20px 0px 20px 0px;
+
+    }
+    body > main > div.section-five > div.right > img{
+        height: 200px;
+        margin: 25px;
+        
+    }
+
+    body > main > div.section-six{
+        padding:0px
+    }
+    .section-six>.headtext{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    body > main > div.section-six > div.headtext > h2{
+        margin: 25px;
+    }
+    body > main > div.section-six > div.headtext > p{
+        margin: 50px;
+    }
+
+
+    .section-six>.cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;;
+        margin: 20px;
+        /* padding: 20px; */
+    }
+    body > main > div.section-six > div.cards > div:nth-child(1){
+        margin: 0px;
+    }
+    footer{
+       
+        padding-bottom: 25px;
+    }
+    .firstportion{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+
+    }
+    .secondportion{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    }
